@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "72642810494",
+    "project_id": "firstkmmproject",
+    "storage_bucket": "firstkmmproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72642810494:android:7b5785fb9e736f53273e2f",
+        "android_client_info": {
+          "package_name": "com.example.myfirstappkotlinmultiplataform.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72642810494-vdktod4a8j8qo4iljshmgvklabji0pkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myfirstappkotlinmultiplataform.android",
+            "certificate_hash": "66c45ac462ebd08c932502a6eab2f354d8f07602"
+          }
+        },
+        {
+          "client_id": "72642810494-s57o2rhks0uoevau4ol8p3rj2f97o5dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YkJpF8kdZK9-aTHu8EAs4lDgvgw_dy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72642810494-s57o2rhks0uoevau4ol8p3rj2f97o5dq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
