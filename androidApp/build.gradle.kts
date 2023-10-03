@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace = "com.example.myfirstappkotlinmultiplataform.android"
-    compileSdk = 33
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.example.myfirstappkotlinmultiplataform.android"
         minSdk = 27
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
@@ -47,7 +47,13 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.4.3")
     implementation("androidx.compose.material:material:1.4.3")
     implementation("androidx.activity:activity-compose:1.7.1")
+
+    //firebase
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
+
+    //koin
+    implementation("io.insert-koin:koin-android:3.2.0")
+    implementation( "io.insert-koin:koin-androidx-compose:3.2.0")
 }
