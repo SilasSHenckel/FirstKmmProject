@@ -1,16 +1,21 @@
 import SwiftUI
+import UIKit
 import shared
 
+struct ComposeView: UIViewControllerRepresentable {
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
+    }
+    
+    func makeUIViewController(context: Context) -> some UIViewController {
+        Home_iosKt.MainViewController()
+    }
+}
+
 struct ContentView: View {
-	let greet = Greeting().greet()
 
 	var body: some View {
-		Text(greet)
+		ComposeView()
 	}
 }
 
-struct ContentView_Previews: PreviewProvider {
-	static var previews: some View {
-		ContentView()
-	}
-}
